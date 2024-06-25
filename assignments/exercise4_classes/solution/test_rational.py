@@ -91,5 +91,5 @@ class TestRational(unittest.TestCase):
             Rational(1, precision=1e-5, max_iterations=100)._float_to_rational(1/0)
 
 if __name__ == "__main__":
-    unittest.main(argv=[''], exit=False)
+    unittest.main()
 
